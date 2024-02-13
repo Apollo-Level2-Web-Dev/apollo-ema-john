@@ -1,6 +1,6 @@
 import { CreditCard, Trash2 } from "lucide-react";
 import { useAppDispatch, useAppSelector } from "../redux/hook";
-import { clearCart } from "../redux/features/cartSlice";
+import { clearCart } from "../redux/features/cart/cartSlice";
 
 const OrderSummary = () => {
   const dispatch = useAppDispatch();

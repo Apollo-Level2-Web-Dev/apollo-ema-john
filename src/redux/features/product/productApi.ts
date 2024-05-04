@@ -4,7 +4,7 @@ import { baseApi } from "../../api/baseApi";
 // Define a service using a base URL and expected endpoints
 // export const productApi = createApi({
 //   reducerPath: "productApi",
-//   baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5000/api/v1" }),
+//   baseQuery: fetchBaseQuery({ baseUrl: "https://apollo-emajohn-backend.vercel.app/api/v1" }),
 //   endpoints: (builder) => ({
 //     getProducts: builder.query({
 //       query: () => "/products",
@@ -65,9 +65,9 @@ export const {
 
 //use GetPokemonByName Query/Mutation
 
-// http//:localhost:50000/api/v1/products
+// https://apollo-emajohn-backend.vercel.app/api/v1/products
 /**
- * fetch('http//:localhost:50000/api/v1/products', {
+ * fetch('https://apollo-emajohn-backend.vercel.app/api/v1/products', {
  * method: 'POST' / "PUT" / "DELETE", //mutattion methods
  * method : "GET" //query method
  * headers: {},
@@ -87,12 +87,12 @@ export const {
 
 /**
    * Step-1
-   *fetch('http//:localhost:50000/api/v1/products')
+   *fetch('https://apollo-emajohn-backend.vercel.app/api/v1/products')
    
    Step-2
    * endpoints.getProducts().query("/products")
    *
-   * fetch('http//:localhost:50000/api/v1/products', {
+   * fetch('https://apollo-emajohn-backend.vercel.app/api/v1/products', {
    * method: 'POST' / "PUT" / "DELETE", //mutattion methods
    * method : "GET" //query method
    * headers: {},

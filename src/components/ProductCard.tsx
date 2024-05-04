@@ -28,7 +28,7 @@ const ProductCard = ({ product }: any) => {
     setShowModal(false);
   };
 
-  const handleAddToCart = (product) => {
+  const handleAddToCart = (product : any) => {
     dispatch(addToCart(product));
   };
   return (
